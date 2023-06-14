@@ -196,6 +196,10 @@ public class LibroDeDirecciones {
         }
     }
 
+    /**
+     * @param datos
+     * @param nombre
+     */
     public static void mostrarPropiedadesPorValor(List<DatosDeRegistro> datos, String nombre) {
         for (DatosDeRegistro datosFor : datos) {
             if (datosFor.getNombre().equals(nombre)) {

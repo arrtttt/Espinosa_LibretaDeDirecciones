@@ -27,6 +27,10 @@ public class DatosDeRegistro{
     }
 
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return "DatosDeRegistro [nombre=" + nombre + ", apellido=" + apellido + ", calle=" + calle + ", ciudad="
